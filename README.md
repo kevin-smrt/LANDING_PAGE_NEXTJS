@@ -2,6 +2,7 @@
 
 ## 🛠 Tester le projet
 `npm i` pour installer les dépendances.
+
 `npm run dev` pour lancer l'application sur `http://localhost:3000`
 
 ## 🎯 But du projet
