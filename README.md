@@ -1,6 +1,8 @@
 # 🖥 LANDING PAGE AVEC NEXT.JS
 
 ## 🛠 Tester le projet
+`node.js` doit être installer.
+
 `npm i` pour installer les dépendances.
 
 `npm run dev` pour lancer l'application sur `http://localhost:3000`
