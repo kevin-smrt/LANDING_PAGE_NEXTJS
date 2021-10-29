@@ -12,6 +12,7 @@ export default function Header({ className }) {
                     <Box>
                         <Link
                             sx={styles.title}
+                            to={0}
                             // A finir
                         >
                             <h1>FOODO</h1>
@@ -41,6 +42,7 @@ export default function Header({ className }) {
 
 const styles = {
     header: {
+        color: 'text',
         py: 4,
         width: '100%',
         position: 'absolute',
@@ -65,8 +67,14 @@ const styles = {
     link: {
         mr: 20,
         cursor: 'pointer',
+        '&:hover': {
+            color: 'black',
+        },
     },
     title: {
         cursor: 'pointer',
+        '&:hover': {
+            color: 'black',
+        },
     }
 };
