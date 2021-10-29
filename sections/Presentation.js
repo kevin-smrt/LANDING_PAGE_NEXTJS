@@ -12,11 +12,11 @@ export default function Presentation() {
                         <Image src="/assets/mobile.png" alt="Mobile Image" />
                     </Box>
                     <Box sx={styles.glass}>
-                        <Image variant="plateTwo" sx={styles.images.plateTwo} src="/assets/plate-two.png" />
-                        <Image variant="plateThree" sx={styles.images.plateThree} src="/assets/plate-three.png" />
+                        <Image variant="plateTwo" sx={styles.images.plateTwo} src="/assets/plate-two.png" alt="Plate Image" />
+                        <Image variant="plateThree" sx={styles.images.plateThree} src="/assets/plate-three.png" alt="Plate Image" />
                         <Box sx={styles.center}>
                             <Text as="p" sx={styles.tinyTitle}>FOODO</Text>
-                            <Text as="h3" sx={styles.subtitle}>Get Your Food In</Text>
+                            <Text as="p" sx={styles.subtitle}>Get Your Food In</Text>
                             <Text as="h2" sx={styles.title}>FOODO</Text>
                             <Text as="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
                             <Button sx={styles.button}>Download App</Button>
