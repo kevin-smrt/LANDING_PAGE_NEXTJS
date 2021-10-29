@@ -1,18 +1,18 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Flex, Box } from "theme-ui";
+import { jsx, Flex, Box, Container } from "theme-ui";
 import menuItems from "./header.data";
 import { Link } from "react-scroll";
 
 export default function Header({ className }) {
     return (
         <header sx={styles.header} className={className} id="header">
-            <Box>
+            <Container>
                 <Flex sx={styles.flex}>
                     <Box>
                         <Link
                             sx={styles.title}
-                            to={0}
+                            to="header"
                             // A finir
                         >
                             <h1>FOODO</h1>
@@ -35,7 +35,7 @@ export default function Header({ className }) {
                         ))}
                     </Flex>
                 </Flex>
-            </Box>
+            </Container>
         </header>
     )
 }
