@@ -1,0 +1,11 @@
+.wallpaper {
+    background-image: url(../public/assets/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.texture {
+    background-image: url(../public/assets/texture.png);
+    background-position: center;
+    background-size: cover;
+}
