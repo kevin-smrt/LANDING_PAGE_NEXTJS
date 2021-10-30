@@ -12,7 +12,10 @@ export default function Header({ className }) {
                     <Box>
                         <Link
                             sx={styles.title}
-                            to="header"
+                            to="presentation"
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
                             // A finir
                         >
                             <h1>FOODO</h1>
