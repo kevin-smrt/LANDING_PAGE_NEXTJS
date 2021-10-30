@@ -5,7 +5,7 @@ import classes from '../styles/Wallpaper.module.css';
 
 export default function Presentation() {
     return (
-        <section sx={styles.container} className={classes.wallpaper}>
+        <section sx={styles.container} className={classes.wallpaper} id="presentation">
             <Container sx={styles.container} className={classes.texture}>
                 <Flex sx={styles.flex}>
                     <Box>
@@ -32,6 +32,9 @@ const styles = {
     container: {
         height: '100vh',
         width: '100%',
+        position: 'fixed',
+        top: '0',
+        left: '0',
     },
     flex: {
         height: '100%',
