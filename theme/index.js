@@ -9,6 +9,7 @@ export default {
             cursor: 'pointer',
             color: 'white',
             bg: 'primary',
+            transition: 'background .2s',
             '&:hover': {
                 bg: 'buttonHover',
             }

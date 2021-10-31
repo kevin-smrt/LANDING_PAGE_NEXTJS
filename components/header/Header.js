@@ -70,12 +70,14 @@ const styles = {
     link: {
         mr: 20,
         cursor: 'pointer',
+        transition: 'color .2s',
         '&:hover': {
             color: 'black',
         },
     },
     title: {
         cursor: 'pointer',
+        transition: 'color .2s',
         '&:hover': {
             color: 'black',
         },
