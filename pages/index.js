@@ -2,9 +2,10 @@ import Layout from "../components/Layout";
 import SEO from "../components/SEO/SEO";
 import Presentation from "../sections/Presentation";
 import Features from "../sections/Features";
+import theme from "../theme";
+import About from "../sections/About";
 
 import { ThemeProvider } from "@theme-ui/theme-provider";
-import theme from "../theme";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
                 <SEO />
                 <Presentation />
                 <Features />
+                <About />
             </Layout>
         </ThemeProvider>
     )
