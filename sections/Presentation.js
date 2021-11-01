@@ -5,7 +5,7 @@ import classes from '../styles/Wallpaper.module.css';
 
 export default function Presentation() {
     return (
-        <section sx={styles.container} className={classes.wallpaper} id="presentation">
+        <section sx={styles.container} className={classes.wallpaper}>
             <Container sx={styles.container} className={classes.texture}>
                 <Flex sx={styles.flex}>
                     <Box>
