@@ -4,6 +4,7 @@ export default {
         primary: '#FF4019',
         secondary: '#FFF7E6',
         buttonHover: '#B31E00',
+        footer: '#FFBF80',
     },
     buttons: {
         primary: {
