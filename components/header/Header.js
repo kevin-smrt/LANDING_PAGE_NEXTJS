@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 export default function Header({ className }) {
     return (
-        <header sx={styles.header} className={className} id="header">
+        <header sx={styles.header} className={className}>
             <Container>
                 <Flex sx={styles.flex}>
                     <Box>
