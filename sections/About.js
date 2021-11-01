@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Flex, Container, Box, Image, Text } from 'theme-ui';
+import { jsx, Flex, Container, Box, Image, Text, Button } from 'theme-ui';
 
 export default function About() {
     return (
@@ -12,6 +12,7 @@ export default function About() {
                         <Text as="h2" sx={styles.title}>Best Offer In Town</Text>
                         <Text as="h3" sx={styles.subtitle}>Lorem ipsum dolor sit amet consectur adipisicing elit.</Text>
                         <Text as="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae delectus voluptates reprehenderit hic dicta aliquid, reiciendis odit, debitis unde quibusdam eaque aperiam maiores, suscipit quae quo doloremque magnam voluptatum?</Text>
+                        <Button sx={{mt:4}}>Explore More</Button>
                     </Box>
                 </Flex>
             </Container>
