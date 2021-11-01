@@ -4,6 +4,7 @@ import { jsx } from 'theme-ui';
 import { Fragment, useState } from "react";
 import Sticky from "react-stickynode";
 import Header from "./header/Header";
+import Footer from './Footer';
 
 export default function Layout(props) {
     const [isSticky, setIsSticky] = useState(false);
@@ -24,6 +25,7 @@ export default function Layout(props) {
             <main sx={styles.main}>
                 {props.children}
             </main>
+            <Footer />
         </Fragment>
     )
 }
