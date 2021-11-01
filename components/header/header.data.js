@@ -5,8 +5,8 @@ export default [
     },
 
     {
-        path: 'presentation',
-        label: 'Presentation'
+        path: 'about',
+        label: 'About'
     },
 
     {
