@@ -18,7 +18,7 @@ export default function Features() {
                         />
                     ))}
                 </Flex>
-                <Divider />
+                <Divider sx={styles.divider} />
             </Container>
         </section>
     )
@@ -36,4 +36,7 @@ const styles = {
     flex: {
         justifyContent: 'center',
     },
+    divider: {
+        margin: 0,
+    }
 }
