@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container, Text, Flex, Button, Image, Box } from 'theme-ui';
+import { jsx, Container, Text, Flex } from 'theme-ui';
 import DownloadButton from '../components/DownloadButton';
 
 export default function Download() {
