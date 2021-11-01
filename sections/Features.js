@@ -28,7 +28,7 @@ const styles = {
     features: {
         position: 'relative',
         mt: '100vh',
-        bg: 'whitesmoke',
+        bg: 'secondary',
     },
     container: {
         width: '60%',

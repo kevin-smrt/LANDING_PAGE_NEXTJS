@@ -24,7 +24,7 @@ const styles = {
     about: {
         position: 'relative',
         py: 4,
-        bg: 'whitesmoke',
+        bg: 'secondary',
     },
     container: {
         width: '60%',
