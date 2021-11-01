@@ -1,12 +1,12 @@
 export default [
     {
-        path: 'presentation',
-        label: 'Presentation'
+        path: 'feature',
+        label: 'Features'
     },
 
     {
-        path: 'feature',
-        label: 'Features'
+        path: 'presentation',
+        label: 'Presentation'
     },
 
     {
