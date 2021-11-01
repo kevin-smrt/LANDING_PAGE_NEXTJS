@@ -2,6 +2,7 @@ export default {
     colors: {
         text: '#3b3b3b',
         primary: '#FF4019',
+        secondary: '#FFF7E6',
         buttonHover: '#B31E00',
     },
     buttons: {
@@ -13,6 +14,12 @@ export default {
             '&:hover': {
                 bg: 'buttonHover',
             }
+        },
+        download: {
+            cursor: 'pointer',
+            color: 'white',
+            bg: 'black',
+            m: 2,
         }
     },
     images: {
