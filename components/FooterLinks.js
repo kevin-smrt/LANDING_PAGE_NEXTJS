@@ -11,7 +11,7 @@ export default function FooterLinks(props) {
                     <Link
                         sx={styles.link}
                         key={index} 
-                        to='/'
+                        href='#footer'
                     >
                         {text}
                     </Link>
@@ -27,6 +27,12 @@ const styles = {
         flexDirection: 'column',
     },
     link: {
-        cursor: 'pointer'
+        cursor: 'pointer',
+        textDecoration: 'none',
+        color: 'text',
+        transition: 'color .2s',
+        '&:hover': {
+            color: 'black',
+        }
     }
 }

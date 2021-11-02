@@ -5,7 +5,7 @@ import FooterLinks from './FooterLinks';
 
 export default function Footer() {
     return (
-        <footer sx={styles.footer}>
+        <footer sx={styles.footer} id="footer">
             <Container sx={styles.container}>
                 <Flex sx={styles.flex}>
                     <Box sx={styles.box}>
