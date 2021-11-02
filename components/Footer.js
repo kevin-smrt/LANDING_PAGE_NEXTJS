@@ -36,7 +36,7 @@ const styles = {
         bg: 'footer',
     },
     container: {
-        py: 5,
+        py: 6,
         width: '60%',
     },
     flex: {
