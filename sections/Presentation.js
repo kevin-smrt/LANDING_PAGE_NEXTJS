@@ -47,7 +47,7 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'center',
         height: '400px',
-        width: '850px',
+        width: '40%',
         background: 'rgba(255, 255, 255, 0.3)',
         boxShadow: '0 1px 10px 0 rgba(0, 0, 0, 0.30)',
         backdropFilter: 'blur(5px )',
