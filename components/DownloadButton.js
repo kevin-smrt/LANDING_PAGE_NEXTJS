@@ -6,7 +6,7 @@ export default function DownloadButton(props) {
     return (
         <Button variant="download">
             <Flex>
-                <Image sx={styles.img} src={props.imgUrl} />
+                <Image sx={styles.img} src={props.imgUrl} alt={props.alt} />
                 <Box>
                     <Text as="p">{props.text}</Text>
                     <span sx={styles.button}>{props.platform}</span>

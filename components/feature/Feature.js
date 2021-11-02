@@ -5,7 +5,7 @@ import { jsx, Box, Text, Image } from 'theme-ui';
 export default function Feature(props) {
     return (
         <Box sx={styles.box}>
-            <Image sx={styles.img} src={props.imgUrl} />
+            <Image sx={styles.img} src={props.imgUrl} alt={props.alt} />
             <Text sx={styles.title} as="h2">{props.title}</Text>
             <Text sx={styles.content} as="p">{props.content}</Text>
         </Box>

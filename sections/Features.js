@@ -15,6 +15,7 @@ export default function Features() {
                             title={featureItem.title}
                             content={featureItem.content}
                             imgUrl={featureItem.imgUrl}
+                            alt={featureItem.altText}
                         />
                     ))}
                 </Flex>

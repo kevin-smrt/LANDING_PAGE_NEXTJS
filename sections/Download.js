@@ -13,11 +13,13 @@ export default function Download() {
                 <Flex sx={styles.flex}>
                     <DownloadButton
                         imgUrl="/assets/ios-icon.png"
+                        alt="ios icon"
                         text="Download On The"
                         platform="App Store"
                     />
                     <DownloadButton
                         imgUrl="/assets/google-icon.png"
+                        alt="google icon"
                         text="Android App On"
                         platform="Google play"
                     />

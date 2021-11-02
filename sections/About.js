@@ -7,7 +7,7 @@ export default function About() {
         <section sx={styles.about} id="about">
             <Container sx={styles.container}>
                 <Flex sx={styles.flex}>
-                    <Image sx={styles.img} src="/assets/image-about.png" />
+                    <Image sx={styles.img} src="/assets/image-about.png" alt="Image About" />
                     <Box>
                         <Text as="h2" sx={styles.title}>Best Offer In Town</Text>
                         <Text as="h3" sx={styles.subtitle}>Lorem ipsum dolor sit amet consectur adipisicing elit.</Text>
