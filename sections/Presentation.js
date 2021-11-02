@@ -8,7 +8,7 @@ export default function Presentation() {
         <section sx={styles.container} className={classes.wallpaper}>
             <Container sx={styles.container} className={classes.texture}>
                 <Flex sx={styles.flex}>
-                    <Box>
+                    <Box sx={styles.images.mobile}>
                         <Image src="/assets/mobile.png" alt="Mobile Image" />
                     </Box>
                     <Box sx={styles.glass}>
@@ -41,6 +41,10 @@ const styles = {
         width: '100%',
         alignItems: 'center',
         justifyContent: 'space-evenly',
+        '@media screen and (max-width: 950px)': {
+            flexDirection: 'column',
+            justifyContent: 'center',
+        },
     },
     glass: {
         display: 'flex',
@@ -53,6 +57,10 @@ const styles = {
         backdropFilter: 'blur(5px )',
         borderRadius: '10px',
         border: '1px solid rgba(255, 255, 255, 0.18)',
+        '@media screen and (max-width: 950px)': {
+            width: '80%',
+            height: '350px'
+        }
     },
     center: {
         width: '90%',
@@ -85,6 +93,15 @@ const styles = {
             position: 'absolute',
             top: '-20px',
             right: '120px',
+        },
+        mobile: {
+            '@media screen and (max-width: 950px)': {
+                width: '60%',
+            },
+            '@media screen and (max-width: 550px)': {
+                width: '80%',
+                m: 4,
+            }
         }
-    }
+    },
 }
