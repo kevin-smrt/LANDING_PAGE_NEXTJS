@@ -8,7 +8,7 @@ export default function About() {
             <Container sx={styles.container}>
                 <Flex sx={styles.flex}>
                     <Image sx={styles.img} src="/assets/image-about.png" alt="Image About" />
-                    <Box>
+                    <Box sx={styles.box}>
                         <Text as="h2" sx={styles.title}>Best Offer In Town</Text>
                         <Text as="h3" sx={styles.subtitle}>Lorem ipsum dolor sit amet consectur adipisicing elit.</Text>
                         <Text as="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae delectus voluptates reprehenderit hic dicta aliquid, reiciendis odit, debitis unde quibusdam eaque aperiam maiores, suscipit quae quo doloremque magnam voluptatum?</Text>
@@ -34,6 +34,9 @@ const styles = {
     },
     flex: {
         alignItems: 'center',
+    },
+    box: {
+        width: '90%',
     },
     title: {
         fontWeight: 600,
