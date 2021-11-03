@@ -58,6 +58,9 @@ const styles = {
             boxShadow: '0 1px 2px rgba(0, 0, 0, 0.06)',
             py: 3,
             bg: 'white',
+        },
+        '@media screen and (max-width: 550px)': {
+            display: 'none',
         }
     },
     flex: {

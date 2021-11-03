@@ -43,7 +43,6 @@ const styles = {
         justifyContent: 'space-evenly',
         '@media screen and (max-width: 950px)': {
             flexDirection: 'column',
-            justifyContent: 'center',
         },
     },
     glass: {
@@ -59,7 +58,6 @@ const styles = {
         border: '1px solid rgba(255, 255, 255, 0.18)',
         '@media screen and (max-width: 950px)': {
             width: '80%',
-            height: '350px'
         }
     },
     center: {
