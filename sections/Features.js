@@ -33,9 +33,17 @@ const styles = {
     },
     container: {
         width: '60%',
+        '@media screen and (max-width: 950px)': {
+            width: '80%',
+        }
     },
     flex: {
         justifyContent: 'center',
+        '@media screen and (max-width: 950px)': {
+            flexDirection: 'column',
+            textAlign: 'center',
+            alignItems: 'center',
+        }
     },
     divider: {
         margin: 0,

@@ -44,5 +44,9 @@ const styles = {
     },
     flex: {
         justifyContent: 'center',
+        '@media screen and (max-width: 950px)': {
+            flexDirection: 'column',
+            alignItems: 'center',
+        }
     }
 }

@@ -12,14 +12,16 @@ export default function Footer() {
                         <Text sx={styles.title} as="h2">FOODO</Text>
                         <Text as="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae delectus voluptates reprehenderit.</Text>
                     </Box>
-                    <FooterLinks
-                        title="Links"
-                        links={["Overview", "Social Media", "Contact"]}
-                    />
-                    <FooterLinks
-                        title="Links"
-                        links={["Overview", "Social Media", "Contact"]}
-                    />
+                    <Flex sx={styles.links}>
+                        <FooterLinks
+                            title="Links"
+                            links={["Overview", "Social Media", "Contact"]}
+                        />
+                        <FooterLinks
+                            title="Links"
+                            links={["Overview", "Social Media", "Contact"]}
+                        />
+                    </Flex>
                 </Flex>
             </Container>
             <Container sx={styles.copyright}>
@@ -38,9 +40,23 @@ const styles = {
     container: {
         py: 6,
         width: '60%',
+        '@media screen and (max-width: 950px)': {
+            width: '80%',
+        }
     },
     flex: {
         justifyContent: 'space-around',
+        '@media screen and (max-width: 950px)': {
+            flexDirection: 'column',
+        }
+    },
+    links: {
+        justifyContent: 'space-around',
+        width: '50%',
+        '@media screen and (max-width: 950px)': {
+            width: '100%',
+            justifyContent: 'space-between',
+        }
     },
     title: {
         fontWeight: 300,
@@ -48,6 +64,9 @@ const styles = {
     },
     box: {
         width: 500,
+        '@media screen and (max-width: 950px)': {
+            width: '100%',
+        }
     },
     copyright: {
         py: 2,

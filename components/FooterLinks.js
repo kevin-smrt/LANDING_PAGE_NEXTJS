@@ -5,7 +5,7 @@ import { jsx, Box, Text, Flex, Link } from 'theme-ui';
 export default function FooterLinks(props) {
     return (
         <Box>
-            <Text as="h3">{props.title}</Text>
+            <Text sx={styles.title} as="h3">{props.title}</Text>
             <Flex sx={styles.flex}>
                 {props.links.map((text, index) => (
                     <Link
@@ -22,6 +22,9 @@ export default function FooterLinks(props) {
 }
 
 const styles = {
+    title: {
+        mt: 2,
+    },
     flex: {
         mt: 3,
         flexDirection: 'column',

@@ -21,6 +21,9 @@ export default {
             color: 'white',
             bg: 'black',
             m: 2,
+            '@media screen and (max-width: 950px)': {
+                width: '200px',
+            }
         }
     },
     images: {

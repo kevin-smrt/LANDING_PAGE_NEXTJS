@@ -8,7 +8,7 @@ export default function DownloadButton(props) {
             <Flex>
                 <Image sx={styles.img} src={props.imgUrl} alt={props.alt} />
                 <Box>
-                    <Text as="p">{props.text}</Text>
+                    <Text sx={styles.text} as="p">{props.text}</Text>
                     <span sx={styles.button}>{props.platform}</span>
                 </Box>
             </Flex>
@@ -21,6 +21,14 @@ const styles = {
         display: 'block',
         fontSize: 24,
         fontWeight: 500,
+        '@media screen and (max-width: 950px)': {
+            fontSize: 16,
+        }
+    },
+    text: {
+        '@media screen and (max-width: 950px)': {
+            fontSize: 12,
+        }
     },
     img: {
         objectFit: 'contain',
