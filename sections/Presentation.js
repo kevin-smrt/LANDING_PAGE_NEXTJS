@@ -86,11 +86,17 @@ const styles = {
             position: 'absolute',
             top: '-20px',
             right: '30px',
+            '@media screen and (max-width: 950px)': {
+                display: 'none',
+            }
         },
         plateThree: {
             position: 'absolute',
             top: '-20px',
             right: '120px',
+            '@media screen and (max-width: 950px)': {
+                display: 'none',
+            }
         },
         mobile: {
             '@media screen and (max-width: 950px)': {
